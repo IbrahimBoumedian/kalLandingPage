@@ -1,0 +1,56 @@
+/* Shopping cart icon  */
+.shopping-cart-icon .count {
+  font-weight: bold;
+  color: var(--primary-color);
+  position: absolute;
+  top: -15px;
+  right: -7px;
+  min-width: 25px !important;
+  min-height: 25px !important;
+  border-radius: 50%;
+  background-color: black;
+  color: white !important;
+  font-size: 12px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping-cart-screen {
+  position: fixed !important;
+  top: -100%;
+  left: 0;
+  background: rgba(226, 226, 226, 0.201);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  z-index: 888;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 3;
+  visibility: hidden;
+  padding: 20px 25px !important;
+}
+.shopping-cart-screen.active {
+  opacity: 1 !important;
+  z-index: 99 !important;
+  visibility: visible !important;
+
+  top: 0 !important;
+}
+.shopping-cart-content {
+  /* From https://css.glass */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(209, 209, 209, 0.718);
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  max-width: 100%;
+  min-height: 400px;
+  z-index: 99999999999999;
+  position: relative;
+}

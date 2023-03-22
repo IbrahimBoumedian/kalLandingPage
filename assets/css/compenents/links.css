@@ -1,0 +1,55 @@
+.nav-link {
+  font-size: 17px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 16.65px; */
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.3px;
+  color: var(--black-color) !important;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  text-transform: capitalize !important;
+  transition: 0.3s ease-in-out;
+  display: inline-block;
+  width: fit-content;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 5px 5px 5px 0 !important;
+  background-color: transparent !important;
+}
+
+@media (max-width: 420px) {
+  .nav-link {
+    font-size: 12px;
+    margin: 0 !important;
+    padding-block: 1px !important;
+  }
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0 !important;
+  width: 70%;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: 0.3s ease-in-out;
+  transform-origin: right top ;
+  transform: scaleX(0);
+  filter: blur(1px);
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+  transform-origin: left top ;
+  transform: scaleX(1) !important;
+  filter: blur(0px);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-color) !important;
+}

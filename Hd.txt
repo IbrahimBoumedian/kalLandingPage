@@ -1,0 +1,62 @@
+  <!-- Plan 4  -->
+                            <!-- Customize plan -->
+                            <div data-wow-duration="1s" data-wow-delay=".9s"
+                                class="plan-3 plan-item custom-plan relative wow animate__animated animate__fadeInRight col-md-6 fadeInRight col-lg-3">
+    
+                                <!--PRICE CONTENT START-->
+                                <div class="generic_content clearfix">
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div style="background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);"
+                                        class="generic_head_price clearfix cutome-plan">
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                            <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>
+                                                    Create <br>Custom plan</br> Homeowner
+                                                    <br>
+                                              
+    
+                                                </span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                      <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">
+                                            <span class="price">
+
+                                                <div class="top-price">
+                                                    <span class="sign">$</span>
+                                                    <span class="currency">0</span>
+                                                    <span class="year block capitalize mt-2 italic">Every year</span>
+                                                    <p class="mt-2 text-lg px-5" style="font-size:16px !important; ">
+                                                        Keep your home looking pristine & Impress your neighbors.
+                                                    </p>
+                                                    <b>(100 Sqft to 2000 Sqft)</b>
+                                                </div>
+                                            </span>
+                                                <!--BUTTON START-->
+                                                <div class="generic_price_btn clearfix">
+                                                    <a class="" href="">Add to cart</a>
+                                                </div>
+                                        
+                                                <!--//BUTTON END-->
+                                        </div>
+                                        <!--//PRICE END-->
+                                    </div>
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list relative">
+                                        <ul>
+                                            <div class="add-feature-item comp-rounded-icon  ">
+                                                <ion-icon name="add-outline"></ion-icon>
+                                            </div>
+    
+    
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                </div>
+                                <!--//PRICE CONTENT END-->

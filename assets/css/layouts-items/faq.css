@@ -1,0 +1,68 @@
+/* Start quote Section */
+.containerFluid {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.accordion {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid rgba(0 0 0 /10%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  transition: 0.3s;
+  gap: 20px;
+}
+.accordion:hover {
+  transform: translateX(2px);
+}
+.accordion .icon {
+  min-width: 30px;
+  min-height: 30px;
+  background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+    no-repeat 8px 7px #10b9f1;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease-in;
+}
+
+.accordion h5 {
+  font-size: 17px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: black;
+}
+@media (max-width: 768px) {
+  .accordion h5 {
+    font-size: 13px !important;
+  }
+}
+
+.active {
+  background-color: whitesmoke;
+  color: #fff !important;
+}
+
+.active .icon {
+  background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+    no-repeat 8px -25px #fff;
+}
+
+.panel {
+  padding: 0 15px;
+  border-left: 1px solid var(--primary-color);
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease-in;
+}
+/* End quote Section */

@@ -1,0 +1,9 @@
+.section-pad {
+  padding-block: 150px !important;
+}
+
+/* Background with shadow  */
+.shadow-section {
+  position: relative !important;
+  z-index: 2 !important;
+}

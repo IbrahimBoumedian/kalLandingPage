@@ -1,0 +1,114 @@
+/* Start Section "HERO" */
+
+.section-hero {
+  position: relative;
+}
+
+.section-hero .container > .row {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.section-hero .hero-txt {
+  max-width: 600px;
+}
+/* CENTER ALL TEXT IN MOBILE */
+
+@media (max-width: 768px) {
+  .section-hero .hero-txt {
+    margin: auto 0 !important;
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-hero .hero-txt .links {
+    margin: auto;
+    justify-content: center;
+  }
+  .section-hero .hero-txt .links > * {
+    font-size: 17px !important;
+    padding: 9px 20px !important;
+  }
+  .section-hero .hero-txt #check-icon {
+    display: none;
+  }
+}
+.section-hero .hero-txt p {
+  font-size: 17px;
+  max-width: 430px;
+  margin-block: 10px;
+}
+
+.section-hero .hero-txt h1 {
+  font-size: 45px !important;
+}
+
+@media (min-width: 968px) {
+  .section-hero .hero-txt h1 {
+    font-size: 50px !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-hero .hero-txt h1 {
+    font-size: 74px !important;
+  }
+}
+@media (max-width: 400px) {
+  .section-hero .hero-txt h1 {
+    font-size: 35px !important;
+  }
+}
+
+.section-hero .hero-main-img {
+
+  max-width: 55%;
+  margin-left:80px;
+ /* margin-left: auto !important;
+*/}
+
+.section-hero .bubble {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(120deg, #f6e5ec66 0%, #4cafdf 100%);
+    z-index: -1;
+    position: absolute;
+}
+
+.section-hero .bubble-1 {
+  top:-50px;
+  left: 40px;
+  animation: animateMove 2s 0.2s ease-in-out infinite alternate;
+}
+
+.section-hero .bubble-2 {
+  bottom: 20px;
+  right: 110px;
+  animation: animateMove2 2s 0.2s ease-in-out infinite alternate;
+}
+
+@keyframes animateMove {
+  0% {
+    opacity: 0.2;
+    transform: translate(20px, 40px) rotate(360deg) scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(30px, 50px) rotate(180deg);
+  }
+}
+
+@keyframes animateMove2 {
+  0% {
+    opacity: 0.2;
+    transform: translate(-20px, -40px) rotate(360deg) scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-30px, -50px) rotate(180deg);
+  }
+}

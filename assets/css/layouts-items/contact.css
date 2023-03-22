@@ -1,0 +1,39 @@
+/* Start Contact Section */
+.section-contact {
+
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+
+}
+.section-contact .box {
+  margin: auto;
+  width: 1200px;
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 20px !important;
+  border-radius: 30px !important;
+  background-color: white !important;
+}
+.section-contact .box input,
+.section-contact .box select {
+  padding: 10px 20px;
+  border: 1px solid rgb(0 0 0 /10%);
+  outline: none;
+  border-radius: 10px !important;
+  width: 100%;
+  transition: .2s ease-in-out;
+}
+.section-contact .box input:focus {
+  border-color: var(--border-color) !important;
+  background-color: whitesmoke !important;
+}
+
+
+.section-contact .box input::placeholder {
+  text-transform: capitalize !important;
+  color: rgb(40, 40, 40);
+  font-size: 15px;
+  font-weight: 400 !important;
+}
+
+/* End Contact  */

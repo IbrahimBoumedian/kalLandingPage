@@ -1,0 +1,38 @@
+/* START AREAS SECTION */
+#areas .areas-items .area {
+  padding: 0 !important;
+  gap: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+#areas .areas-items .area .area-icon {
+  width: 70px !important;
+  height: 70px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+#areas .areas-items .area .area-icon img {
+  display: block;
+  width: 30px;
+}
+#areas .areas-items .area .area-content b {
+  font-size: 20px !important;
+  text-transform: capitalize !important;
+}
+#areas .imgs-wrapper {
+  position: sticky !important;
+  top: 92px !important;
+}
+#areas .areas-items .imgs-wrapper img {
+  border-radius: 10px !important;
+
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  height: 300px;
+  object-fit: cover !important;
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+/* END AREAS SECTION */

@@ -1,0 +1,37 @@
+.comp-icon {
+  font-size: 40px !important;
+  color: var(--black-color) !important;
+  cursor: pointer !important;
+  z-index: 9999999999999999999 !important;
+}
+.comp-rounded-icon {
+  z-index: 9999999999999999999 !important;
+  font-size: 25px;
+  min-width: 45px;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  cursor: pointer !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.comp-rounded-icon:hover {
+  background-color: black !important; 
+  transition: 0.3s ease-in-out;
+  scale: .98 !important;
+  color: white !important;
+}
+
+
+.hide-icon {
+  font-size: 14px !important;
+  z-index: 9999999999999999999 !important;
+}
+.hide-icon > * {
+  z-index: 9999999999999999999 !important;
+  font-size: 5px !important;
+}

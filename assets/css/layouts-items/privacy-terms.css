@@ -1,0 +1,8 @@
+.pdf-box {
+  margin-block: 50px !important;
+}
+.pdf {
+  min-height: 70vh;
+  border-radius: 20px !important;
+  padding: 20px;
+}

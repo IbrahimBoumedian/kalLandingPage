@@ -1,0 +1,82 @@
+/*===== VARIABLES CSS =====*/
+:root {
+  --font-semi: 600;
+  /*===== Colors =====*/
+  --primary-color: #118ac5;
+  --black-color: #121212;
+  --darker-color: #424242;
+  --white-color: #ffffff;
+  --border-color: rgb(0 0 0 / 10%) ;
+  /*===== Text =====*/
+  --body-font: "Poppins", sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+  --smaller-font-size: 0.75rem;
+  --header-y: 50px;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font) !important;
+  scroll-behavior: smooth !important;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  transition: 1s !important;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font) !important;
+  font-size: var(--normal-font-size);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  line-height: 2;
+  font-size: 15px;
+  color: var(--tw-darker);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.before-img,
+.after-img {
+  width: 100% !important;
+  user-select: none !important;
+}
+
+.tw-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1700px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}

@@ -1,0 +1,15 @@
+/* Logo */
+.logo {
+  display: block;
+  transition: 0.1s ease-in-out;
+  height: 100px;
+  scale: 2.0;
+}
+@media (max-width: 500px) {
+  .logo {
+    margin-left: 20px;
+  }
+}
+.logo:hover {
+  opacity: 0.9;
+}
